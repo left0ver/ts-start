@@ -40,10 +40,9 @@
     "release": "release-it",
     "test": "echo this is a test text,please modify it"
   },
-  "dependencies": {
-  },
   "devDependencies": {
     "@types/node": "^18.11.18",
+    "eslint": "^8.31.0",
     "esno": "^0.16.3",
     "release-it": "^15.6.0",
     "tsup": "^6.5.0",
