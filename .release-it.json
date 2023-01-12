@@ -8,7 +8,7 @@
     "requireCommits": true
   },
   "hooks": {
-    "before:init": ["git pull", "npm run build"]
+    "before:init": ["git pull", "pnpm build"]
   },
   "github": {
     "release": false,
