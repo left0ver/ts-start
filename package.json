@@ -41,6 +41,7 @@
     "test": "echo this is a test text,please modify it"
   },
   "devDependencies": {
+    "@left0ver/eslint-config-react": "^0.0.1",
     "@types/node": "^18.11.18",
     "eslint": "^8.31.0",
     "esno": "^0.16.3",
