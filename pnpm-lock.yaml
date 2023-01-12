@@ -4,7 +4,7 @@ importers:
 
   .:
     specifiers:
-      '@left0ver/eslint-config-react': ^0.0.1
+      '@left0ver/eslint-config-react': ^0.0.2
       '@types/node': ^18.11.18
       eslint: ^8.31.0
       esno: ^0.16.3
@@ -12,7 +12,7 @@ importers:
       tsup: ^6.5.0
       typescript: ^4.9.4
     devDependencies:
-      '@left0ver/eslint-config-react': 0.0.1_iukboom6ndih5an6iafl45j2fe
+      '@left0ver/eslint-config-react': 0.0.2_iukboom6ndih5an6iafl45j2fe
       '@types/node': 18.11.18
       eslint: 8.31.0
       esno: 0.16.3
@@ -196,12 +196,14 @@ packages:
     resolution: {integrity: sha512-trnsAYxU3xnS1gPHPyU961coFyLkh4gAD/0zQ5mymY4yOZ+CYvsPqUbOFSw0aDM4y0tV7tiFxL/1XfXPNC6IPg==}
     dev: true
 
-  /@left0ver/eslint-config-react/0.0.1_iukboom6ndih5an6iafl45j2fe:
-    resolution: {integrity: sha512-7exhHbqyITA0YvvChgDuSO2rcIdWA+5KMqHmvo3/ebpBHowJAnCY3etTAhJjlGnHJWQRLcrGpKLcKMgHXZrU0g==}
+  /@left0ver/eslint-config-react/0.0.2_iukboom6ndih5an6iafl45j2fe:
+    resolution: {integrity: sha512-Nh5ryHB43hZrqlhyY6C/8nYkodiBelAjnFHLOU3SGgH7D3mxnW64DseDecoLxDO3i2m/gO/oq3Z+zlYF7ESkfg==}
+    peerDependencies:
+      eslint: '>=7.4.0'
     dependencies:
       '@antfu/eslint-config-react': 0.34.1_iukboom6ndih5an6iafl45j2fe
+      eslint: 8.31.0
     transitivePeerDependencies:
-      - eslint
       - eslint-import-resolver-typescript
       - eslint-import-resolver-webpack
       - jest
