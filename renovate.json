@@ -6,6 +6,11 @@
   ],
   "timezone": "Asia/Shanghai",
   "schedule": "after 10pm and before 5am",
+  "ignoreDeps": [
+    "@left0ver/eslint-config-ts",
+    "@left0ver/eslint-config-vue",
+    "@left0ver/eslint-config-react"
+  ],
   "assignees": [
     "renovate-bot"
   ],
